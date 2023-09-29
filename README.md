@@ -1,4 +1,4 @@
-Python script for a GitHub crawler that searches for repositories, issues, or wikis on GitHub based on certain keywords. It uses the Selenium web automation framework to interact with Google Chrome and scrape data from GitHub pages.
+Python script for a GitHub crawler that searches for repositories, issues, or wikis on GitHub based on certain keywords. It uses Selenium web automation to interact with Google Chrome and scrape data from GitHub pages.
 
 **Web scraping and automation may be subject to terms of service and usage policies of websites. Always respect the website's policies and use web scraping responsibly and ethically.**
 
