@@ -9,7 +9,7 @@ Python script for a GitHub crawler that searches for repositories, issues, or wi
    pip install -r requirements.txt
    ```
  - The script defines a class called **GitHubCrawler** and a method called **perform_github_search()**.
-   The method performs the GitHub search based on the configuration. It navigates to the search results page, extracts links to GitHub profiles or repositories, and, if the search type is "Repositories," it also crawls additional information for each repository.
+   The method performs the GitHub search based on the configuration. It navigates to the search results page, extracts the links to GitHub profiles or repositories, and, if the search type is "Repositories," it also crawls additional information for each repository.
    ```python
    from github_crawler import GitHubCrawler
 
