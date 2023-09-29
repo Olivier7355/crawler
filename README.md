@@ -23,4 +23,27 @@ Python script for a GitHub crawler that searches for repositories, issues, or wi
     github_crawler = GitHubCrawler(json_config)
     result_urls = github_crawler.perform_github_search()
    ```
-
+- Examples of output
+  ```json
+  [
+    {
+        "url": "https://github.com/atuldjadhav/DropBox-Cloud-Storage",
+        "extra": {
+            "owner": "atuldjadhav",
+            "language_stats": {
+                "CSS": 52.0,
+                "JavaScript": 47.2,
+                "HTML": 0.8
+            }
+        }
+    },
+    {
+        "url": "https://github.com/michealbalogun/Horizon-dashboard",
+        "extra": {
+            "owner": "michealbalogun",
+            "language_stats": {
+                "Python": 100.0
+            }
+        }
+    }
+]
