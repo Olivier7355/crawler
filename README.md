@@ -23,7 +23,7 @@ Python script for a GitHub crawler that searches for repositories, issues, or wi
     github_crawler = GitHubCrawler(json_config)
     result_urls = github_crawler.perform_github_search()
    ```
-- Examples of output
+- Example of output
   ```json
   [
     {
